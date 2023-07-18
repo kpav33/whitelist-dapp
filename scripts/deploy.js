@@ -4,6 +4,7 @@ async function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// Deployed contract address on Sepolia 0xFa362DD008cDDC03b09f38B4560EA5F1476A865A
 async function main() {
   /*
     DeployContract in ethers.js is an abstraction used to deploy new smart contracts,
